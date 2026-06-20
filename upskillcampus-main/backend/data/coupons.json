@@ -1,0 +1,56 @@
+[
+  {
+    "code": "WELCOME50",
+    "type": "flat",
+    "discount": 50,
+    "minOrder": 0,
+    "expiryDate": "2026-12-31",
+    "isActive": true,
+    "desc": "₹50 off!"
+  },
+  {
+    "code": "QUICK20",
+    "type": "percent",
+    "discount": 20,
+    "minOrder": 0,
+    "expiryDate": "2026-12-31",
+    "isActive": true,
+    "desc": "20% off!"
+  },
+  {
+    "code": "FIRSTORDER100",
+    "type": "flat",
+    "discount": 100,
+    "minOrder": 499,
+    "expiryDate": "2026-12-31",
+    "isActive": true,
+    "desc": "₹100 off above ₹499!"
+  },
+  {
+    "code": "FREEDEL",
+    "type": "delivery",
+    "discount": 0,
+    "minOrder": 0,
+    "expiryDate": "2026-12-31",
+    "isActive": true,
+    "desc": "Free Delivery!"
+  },
+  {
+    "code": "HIHI",
+    "type": "percent",
+    "discount": 99,
+    "minOrder": 201,
+    "expiryDate": "2026-07-19",
+    "isActive": true,
+    "desc": "99% off!"
+  },
+  {
+    "code": "UITEST1781915419.11008",
+    "type": "flat",
+    "discount": 60,
+    "minOrder": 200,
+    "expiryDate": "2026-12-31",
+    "isActive": true,
+    "desc": "UI test flat discount"
+  }
+]

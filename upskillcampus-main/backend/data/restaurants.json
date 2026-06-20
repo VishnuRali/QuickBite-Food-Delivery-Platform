@@ -1,0 +1,96 @@
+[
+  {
+    "id": 1, "name": "Pizza Palace", "emoji": "🍕", "cuisine": "Pizza, Italian",
+    "rating": 4.5, "reviews": 2341, "deliveryTime": "25-30 min", "deliveryFee": 29,
+    "minOrder": 199, "tags": ["Bestseller", "Top Rated"], "isOpen": true,
+    "menu": [
+      { "id": 101, "name": "Margherita Pizza", "price": 249, "desc": "Classic tomato sauce with mozzarella", "category": "Pizza", "emoji": "🍕", "popular": true },
+      { "id": 102, "name": "Pepperoni Pizza", "price": 329, "desc": "Loaded with pepperoni slices", "category": "Pizza", "emoji": "🍕", "popular": true },
+      { "id": 103, "name": "BBQ Chicken Pizza", "price": 349, "desc": "Smoky BBQ sauce with grilled chicken", "category": "Pizza", "emoji": "🍕", "popular": false },
+      { "id": 104, "name": "Veggie Delight", "price": 279, "desc": "Fresh veggies on tomato base", "category": "Pizza", "emoji": "🍕", "popular": false },
+      { "id": 105, "name": "Garlic Bread", "price": 99, "desc": "Toasted garlic bread with butter", "category": "Sides", "emoji": "🍞", "popular": false },
+      { "id": 106, "name": "Coke", "price": 60, "desc": "Chilled Coca Cola 500ml", "category": "Drinks", "emoji": "🥤", "popular": false }
+    ]
+  },
+  {
+    "id": 2, "name": "Burger Barn", "emoji": "🍔", "cuisine": "Burger, American",
+    "rating": 4.3, "reviews": 1823, "deliveryTime": "20-25 min", "deliveryFee": 19,
+    "minOrder": 149, "tags": ["Fast Delivery"], "isOpen": true,
+    "menu": [
+      { "id": 201, "name": "Classic Beef Burger", "price": 199, "desc": "Juicy beef patty with fresh veggies", "category": "Burgers", "emoji": "🍔", "popular": true },
+      { "id": 202, "name": "Chicken Crispy Burger", "price": 179, "desc": "Crispy fried chicken fillet", "category": "Burgers", "emoji": "🍔", "popular": true },
+      { "id": 203, "name": "Double Smash Burger", "price": 279, "desc": "Double smashed patties with cheese", "category": "Burgers", "emoji": "🍔", "popular": false },
+      { "id": 204, "name": "Veggie Burger", "price": 149, "desc": "Plant-based patty with fresh toppings", "category": "Burgers", "emoji": "🍔", "popular": false },
+      { "id": 205, "name": "French Fries", "price": 89, "desc": "Crispy golden fries with ketchup", "category": "Sides", "emoji": "🍟", "popular": true },
+      { "id": 206, "name": "Milkshake", "price": 129, "desc": "Creamy chocolate or vanilla shake", "category": "Drinks", "emoji": "🥛", "popular": false }
+    ]
+  },
+  {
+    "id": 3, "name": "Biryani House", "emoji": "🍛", "cuisine": "Biryani, Mughlai",
+    "rating": 4.7, "reviews": 3892, "deliveryTime": "35-40 min", "deliveryFee": 0,
+    "minOrder": 249, "tags": ["Free Delivery", "Popular"], "isOpen": true,
+    "menu": [
+      { "id": 301, "name": "Chicken Dum Biryani", "price": 279, "desc": "Aromatic basmati with tender chicken", "category": "Biryani", "emoji": "🍛", "popular": true },
+      { "id": 302, "name": "Mutton Biryani", "price": 349, "desc": "Slow-cooked mutton with saffron rice", "category": "Biryani", "emoji": "🍛", "popular": true },
+      { "id": 303, "name": "Veg Biryani", "price": 199, "desc": "Mixed vegetables in spiced basmati", "category": "Biryani", "emoji": "🍛", "popular": false },
+      { "id": 304, "name": "Egg Biryani", "price": 229, "desc": "Boiled eggs with fragrant rice", "category": "Biryani", "emoji": "🍛", "popular": false },
+      { "id": 305, "name": "Raita", "price": 49, "desc": "Cool yogurt with cucumber", "category": "Sides", "emoji": "🥗", "popular": false }
+    ]
+  },
+  {
+    "id": 4, "name": "Noodle House", "emoji": "🍜", "cuisine": "Chinese, Noodles",
+    "rating": 4.4, "reviews": 1456, "deliveryTime": "30-35 min", "deliveryFee": 39,
+    "minOrder": 199, "tags": ["Trending"], "isOpen": true,
+    "menu": [
+      { "id": 401, "name": "Hakka Noodles", "price": 169, "desc": "Stir-fried noodles with veggies", "category": "Noodles", "emoji": "🍜", "popular": true },
+      { "id": 402, "name": "Schezwan Fried Rice", "price": 179, "desc": "Spicy fried rice with Schezwan sauce", "category": "Rice", "emoji": "🍚", "popular": true },
+      { "id": 403, "name": "Chicken Manchurian", "price": 229, "desc": "Crispy chicken in manchurian sauce", "category": "Starters", "emoji": "🍗", "popular": false },
+      { "id": 404, "name": "Veg Momos", "price": 129, "desc": "Steamed dumplings with veg filling", "category": "Starters", "emoji": "🥟", "popular": true },
+      { "id": 405, "name": "Chicken Momos", "price": 149, "desc": "Juicy chicken steamed dumplings", "category": "Starters", "emoji": "🥟", "popular": false }
+    ]
+  },
+  {
+    "id": 5, "name": "Sushi World", "emoji": "🍣", "cuisine": "Japanese, Sushi",
+    "rating": 4.6, "reviews": 987, "deliveryTime": "40-45 min", "deliveryFee": 49,
+    "minOrder": 399, "tags": ["Premium"], "isOpen": true,
+    "menu": [
+      { "id": 501, "name": "Salmon Nigiri", "price": 349, "desc": "Fresh salmon on seasoned rice", "category": "Nigiri", "emoji": "🍣", "popular": true },
+      { "id": 502, "name": "Dragon Roll", "price": 449, "desc": "Shrimp tempura with avocado", "category": "Rolls", "emoji": "🍱", "popular": true },
+      { "id": 503, "name": "California Roll", "price": 329, "desc": "Crab, avocado and cucumber", "category": "Rolls", "emoji": "🍱", "popular": false },
+      { "id": 504, "name": "Miso Soup", "price": 99, "desc": "Traditional Japanese soup", "category": "Soups", "emoji": "🍵", "popular": false }
+    ]
+  },
+  {
+    "id": 6, "name": "Chicken Express", "emoji": "🍗", "cuisine": "Chicken, Grills",
+    "rating": 4.2, "reviews": 2103, "deliveryTime": "25-30 min", "deliveryFee": 29,
+    "minOrder": 199, "tags": ["Spicy 🌶️"], "isOpen": true,
+    "menu": [
+      { "id": 601, "name": "Tandoori Chicken", "price": 299, "desc": "Clay oven roasted chicken", "category": "Grills", "emoji": "🍗", "popular": true },
+      { "id": 602, "name": "Chicken 65", "price": 229, "desc": "Spicy deep fried chicken", "category": "Starters", "emoji": "🍗", "popular": true },
+      { "id": 603, "name": "Peri Peri Chicken", "price": 279, "desc": "Flame grilled with peri peri sauce", "category": "Grills", "emoji": "🍗", "popular": false },
+      { "id": 604, "name": "Chicken Wings", "price": 249, "desc": "Crispy wings with dipping sauce", "category": "Starters", "emoji": "🍗", "popular": false }
+    ]
+  },
+  {
+    "id": 7, "name": "Sweet Treats", "emoji": "🧁", "cuisine": "Desserts, Bakery",
+    "rating": 4.8, "reviews": 1678, "deliveryTime": "20-25 min", "deliveryFee": 19,
+    "minOrder": 149, "tags": ["Most Loved ❤️"], "isOpen": true,
+    "menu": [
+      { "id": 701, "name": "Chocolate Lava Cake", "price": 179, "desc": "Warm cake with gooey chocolate center", "category": "Cakes", "emoji": "🎂", "popular": true },
+      { "id": 702, "name": "Cheesecake Slice", "price": 149, "desc": "New York style creamy cheesecake", "category": "Cakes", "emoji": "🍰", "popular": true },
+      { "id": 703, "name": "Gulab Jamun", "price": 89, "desc": "Soft milk solids soaked in syrup", "category": "Indian Sweets", "emoji": "🍮", "popular": true },
+      { "id": 704, "name": "Ice Cream Sundae", "price": 129, "desc": "3 scoops with chocolate sauce", "category": "Ice Cream", "emoji": "🍨", "popular": false }
+    ]
+  },
+  {
+    "id": 8, "name": "Dosa Corner", "emoji": "🫓", "cuisine": "South Indian",
+    "rating": 4.5, "reviews": 3241, "deliveryTime": "20-25 min", "deliveryFee": 0,
+    "minOrder": 99, "tags": ["Free Delivery", "Vegetarian"], "isOpen": true,
+    "menu": [
+      { "id": 801, "name": "Masala Dosa", "price": 89, "desc": "Crispy dosa with spiced potato filling", "category": "Dosas", "emoji": "🫓", "popular": true },
+      { "id": 802, "name": "Idli Sambhar", "price": 69, "desc": "Soft idlis with lentil curry", "category": "Breakfast", "emoji": "🍚", "popular": true },
+      { "id": 803, "name": "Vada", "price": 59, "desc": "Crispy lentil donuts", "category": "Snacks", "emoji": "🍩", "popular": false },
+      { "id": 804, "name": "Filter Coffee", "price": 39, "desc": "Authentic South Indian coffee", "category": "Drinks", "emoji": "☕", "popular": true }
+    ]
+  }
+]
